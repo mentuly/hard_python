@@ -1,0 +1,15 @@
+project/
+│
+├── compression/
+│       unittest/                       # тести
+│           └── unittest.py             # тести для RLE алгоритму
+│   ├── checksum.py                     # контрольні суми
+│   ├── compressor_interface.py         # інтерфейс для стиснення (SOLID)
+│   ├── file_handler.py                 # робота з файлами
+│   └── rle_compressor.py               # RLE алгоритм стиснення та декомпресії
+├── utils/
+│   └── utils.py                        # утиліти
+├── main.py                             # основний файл запуску
+├── pylint.txt                          # txt у який ви можете редагувати
+└── tree.txt                            # дерево в якому ви знаходитесь
+README.md                               # файл для красивого репозиторію
